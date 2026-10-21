@@ -1,0 +1,877 @@
+{
+ "cases": [
+  {
+   "fn": "divider",
+   "args": [
+    "240",
+    "1680"
+   ],
+   "expect": "A 240 Ω upper and 1680 Ω lower resistor around the 1.25 V reference sets the output to 10 V."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "10",
+    "240"
+   ],
+   "expect": "For a 10 V output with a 240 Ω upper resistor, the lower resistor comes to 1680 Ω."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "15",
+    "10",
+    "500"
+   ],
+   "expect": "Dropping 15 V to 10 V at 500 mA leaves the regulator burning 2500 mW."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "339561.52",
+    "93605.7"
+   ],
+   "expect": "A 339561.52 Ω upper and 93605.7 Ω lower resistor around the 1.25 V reference sets the output to 1.59 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "95281.73",
+    "51427.55"
+   ],
+   "expect": "A 95281.73 Ω upper and 51427.55 Ω lower resistor around the 1.25 V reference sets the output to 1.92 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "665892.31",
+    "131097.54"
+   ],
+   "expect": "A 665892.31 Ω upper and 131097.54 Ω lower resistor around the 1.25 V reference sets the output to 1.5 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "511460.87",
+    "703497.86"
+   ],
+   "expect": "A 511460.87 Ω upper and 703497.86 Ω lower resistor around the 1.25 V reference sets the output to 2.97 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "91837.97",
+    "983496.1"
+   ],
+   "expect": "A 91837.97 Ω upper and 983496.1 Ω lower resistor around the 1.25 V reference sets the output to 14.64 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "677164.59",
+    "388358.76"
+   ],
+   "expect": "A 677164.59 Ω upper and 388358.76 Ω lower resistor around the 1.25 V reference sets the output to 1.97 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "193691.89",
+    "407794.04"
+   ],
+   "expect": "A 193691.89 Ω upper and 407794.04 Ω lower resistor around the 1.25 V reference sets the output to 3.88 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "452132.58",
+    "966920.45"
+   ],
+   "expect": "A 452132.58 Ω upper and 966920.45 Ω lower resistor around the 1.25 V reference sets the output to 3.92 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "69472.18",
+    "938148.74"
+   ],
+   "expect": "A 69472.18 Ω upper and 938148.74 Ω lower resistor around the 1.25 V reference sets the output to 18.13 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "595485.64",
+    "145601.43"
+   ],
+   "expect": "A 595485.64 Ω upper and 145601.43 Ω lower resistor around the 1.25 V reference sets the output to 1.56 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "803895.7",
+    "113261.05"
+   ],
+   "expect": "A 803895.7 Ω upper and 113261.05 Ω lower resistor around the 1.25 V reference sets the output to 1.43 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "672592.09",
+    "345388.78"
+   ],
+   "expect": "A 672592.09 Ω upper and 345388.78 Ω lower resistor around the 1.25 V reference sets the output to 1.89 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "803830.06",
+    "41485.52"
+   ],
+   "expect": "A 803830.06 Ω upper and 41485.52 Ω lower resistor around the 1.25 V reference sets the output to 1.31 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "196712.24",
+    "662406.67"
+   ],
+   "expect": "A 196712.24 Ω upper and 662406.67 Ω lower resistor around the 1.25 V reference sets the output to 5.46 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "156323.6",
+    "917303.03"
+   ],
+   "expect": "A 156323.6 Ω upper and 917303.03 Ω lower resistor around the 1.25 V reference sets the output to 8.58 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "863541.25",
+    "304896.93"
+   ],
+   "expect": "A 863541.25 Ω upper and 304896.93 Ω lower resistor around the 1.25 V reference sets the output to 1.69 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "763774.87",
+    "43385.29"
+   ],
+   "expect": "A 763774.87 Ω upper and 43385.29 Ω lower resistor around the 1.25 V reference sets the output to 1.32 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "664703.8",
+    "580505.06"
+   ],
+   "expect": "A 664703.8 Ω upper and 580505.06 Ω lower resistor around the 1.25 V reference sets the output to 2.34 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "914114.44",
+    "280176.64"
+   ],
+   "expect": "A 914114.44 Ω upper and 280176.64 Ω lower resistor around the 1.25 V reference sets the output to 1.63 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "496589.95",
+    "614921.78"
+   ],
+   "expect": "A 496589.95 Ω upper and 614921.78 Ω lower resistor around the 1.25 V reference sets the output to 2.8 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "900532.47",
+    "295969.66"
+   ],
+   "expect": "A 900532.47 Ω upper and 295969.66 Ω lower resistor around the 1.25 V reference sets the output to 1.66 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "5448.24",
+    "417815.27"
+   ],
+   "expect": "A 5448.24 Ω upper and 417815.27 Ω lower resistor around the 1.25 V reference sets the output to 97.11 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "221344.46",
+    "44828.57"
+   ],
+   "expect": "A 221344.46 Ω upper and 44828.57 Ω lower resistor around the 1.25 V reference sets the output to 1.5 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "660006.59",
+    "292505.08"
+   ],
+   "expect": "A 660006.59 Ω upper and 292505.08 Ω lower resistor around the 1.25 V reference sets the output to 1.8 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "938161.21",
+    "771225.61"
+   ],
+   "expect": "A 938161.21 Ω upper and 771225.61 Ω lower resistor around the 1.25 V reference sets the output to 2.28 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "362369.58",
+    "242288.51"
+   ],
+   "expect": "A 362369.58 Ω upper and 242288.51 Ω lower resistor around the 1.25 V reference sets the output to 2.09 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "879566.06",
+    "984131.92"
+   ],
+   "expect": "A 879566.06 Ω upper and 984131.92 Ω lower resistor around the 1.25 V reference sets the output to 2.65 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "207015.87",
+    "418113.42"
+   ],
+   "expect": "A 207015.87 Ω upper and 418113.42 Ω lower resistor around the 1.25 V reference sets the output to 3.77 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "921644.35",
+    "109746.69"
+   ],
+   "expect": "A 921644.35 Ω upper and 109746.69 Ω lower resistor around the 1.25 V reference sets the output to 1.4 V."
+  },
+  {
+   "fn": "divider",
+   "args": [
+    "113323.54",
+    "239218.46"
+   ],
+   "expect": "A 113323.54 Ω upper and 239218.46 Ω lower resistor around the 1.25 V reference sets the output to 3.89 V."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "31.71",
+    "802983.83"
+   ],
+   "expect": "For a 31.71 V output with a 802983.83 Ω upper resistor, the lower resistor comes to 19567109.97 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "48.92",
+    "836465.12"
+   ],
+   "expect": "For a 48.92 V output with a 836465.12 Ω upper resistor, the lower resistor comes to 31899433.82 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "53.68",
+    "978304.55"
+   ],
+   "expect": "For a 53.68 V output with a 978304.55 Ω upper resistor, the lower resistor comes to 41034006.05 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "83.56",
+    "833290.09"
+   ],
+   "expect": "For a 83.56 V output with a 833290.09 Ω upper resistor, the lower resistor comes to 54870485.85 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "13.24",
+    "99389.43"
+   ],
+   "expect": "For a 13.24 V output with a 99389.43 Ω upper resistor, the lower resistor comes to 953343.41 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "24.59",
+    "420136.41"
+   ],
+   "expect": "For a 24.59 V output with a 420136.41 Ω upper resistor, the lower resistor comes to 7844787.05 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "68.8",
+    "707288.41"
+   ],
+   "expect": "For a 68.8 V output with a 707288.41 Ω upper resistor, the lower resistor comes to 38221865.68 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "43.09",
+    "162372.31"
+   ],
+   "expect": "For a 43.09 V output with a 162372.31 Ω upper resistor, the lower resistor comes to 5434925.96 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "45.61",
+    "468763.76"
+   ],
+   "expect": "For a 45.61 V output with a 468763.76 Ω upper resistor, the lower resistor comes to 16635488.31 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "18.98",
+    "582278.93"
+   ],
+   "expect": "For a 18.98 V output with a 582278.93 Ω upper resistor, the lower resistor comes to 8259044.34 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "38.53",
+    "152764.2"
+   ],
+   "expect": "For a 38.53 V output with a 152764.2 Ω upper resistor, the lower resistor comes to 4556039.5 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "41.89",
+    "252761.12"
+   ],
+   "expect": "For a 41.89 V output with a 252761.12 Ω upper resistor, the lower resistor comes to 8217769.53 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "73.25",
+    "84668.96"
+   ],
+   "expect": "For a 73.25 V output with a 84668.96 Ω upper resistor, the lower resistor comes to 4876932.1 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "63.58",
+    "475516.28"
+   ],
+   "expect": "For a 63.58 V output with a 475516.28 Ω upper resistor, the lower resistor comes to 23711143.79 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "84.99",
+    "570913.86"
+   ],
+   "expect": "For a 84.99 V output with a 570913.86 Ω upper resistor, the lower resistor comes to 38246661.31 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "93.36",
+    "673743.96"
+   ],
+   "expect": "For a 93.36 V output with a 673743.96 Ω upper resistor, the lower resistor comes to 49646844.92 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "63.07",
+    "967248.63"
+   ],
+   "expect": "For a 63.07 V output with a 967248.63 Ω upper resistor, the lower resistor comes to 47836248.25 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "8.33",
+    "39387.69"
+   ],
+   "expect": "For a 8.33 V output with a 39387.69 Ω upper resistor, the lower resistor comes to 223091.88 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "95.53",
+    "728175.57"
+   ],
+   "expect": "For a 95.53 V output with a 728175.57 Ω upper resistor, the lower resistor comes to 54921914.19 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "61.22",
+    "985450.78"
+   ],
+   "expect": "For a 61.22 V output with a 985450.78 Ω upper resistor, the lower resistor comes to 47277986.62 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "54.21",
+    "833861.78"
+   ],
+   "expect": "For a 54.21 V output with a 833861.78 Ω upper resistor, the lower resistor comes to 35329055.9 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "76.39",
+    "517564.05"
+   ],
+   "expect": "For a 76.39 V output with a 517564.05 Ω upper resistor, the lower resistor comes to 31111810.17 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "47.03",
+    "252628.87"
+   ],
+   "expect": "For a 47.03 V output with a 252628.87 Ω upper resistor, the lower resistor comes to 9252279.73 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "40",
+    "540013.54"
+   ],
+   "expect": "For a 40 V output with a 540013.54 Ω upper resistor, the lower resistor comes to 16740419.74 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "26.04",
+    "973969.03"
+   ],
+   "expect": "For a 26.04 V output with a 973969.03 Ω upper resistor, the lower resistor comes to 19315753.8 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "19.94",
+    "321534.82"
+   ],
+   "expect": "For a 19.94 V output with a 321534.82 Ω upper resistor, the lower resistor comes to 4807588.63 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "19.1",
+    "417415.12"
+   ],
+   "expect": "For a 19.1 V output with a 417415.12 Ω upper resistor, the lower resistor comes to 5960687.91 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "94.42",
+    "167194.9"
+   ],
+   "expect": "For a 94.42 V output with a 167194.9 Ω upper resistor, the lower resistor comes to 12462039.07 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "70.59",
+    "604913.49"
+   ],
+   "expect": "For a 70.59 V output with a 604913.49 Ω upper resistor, the lower resistor comes to 33555761.12 Ω."
+  },
+  {
+   "fn": "resistor",
+   "args": [
+    "83.73",
+    "339762.34"
+   ],
+   "expect": "For a 83.73 V output with a 339762.34 Ω upper resistor, the lower resistor comes to 22418878.24 Ω."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "97.9",
+    "31.69",
+    "278631.15"
+   ],
+   "expect": "Dropping 97.9 V to 31.69 V at 278631.15 mA leaves the regulator burning 18448168.44 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "84.69",
+    "78.27",
+    "5248020.75"
+   ],
+   "expect": "Dropping 84.69 V to 78.27 V at 5248020.75 mA leaves the regulator burning 33692293.22 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "77.32",
+    "51.92",
+    "6140263.51"
+   ],
+   "expect": "Dropping 77.32 V to 51.92 V at 6140263.51 mA leaves the regulator burning 155962693.15 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "37.97",
+    "10.01",
+    "1600570.45"
+   ],
+   "expect": "Dropping 37.97 V to 10.01 V at 1600570.45 mA leaves the regulator burning 44751949.78 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "62.4",
+    "58.88",
+    "2795658.15"
+   ],
+   "expect": "Dropping 62.4 V to 58.88 V at 2795658.15 mA leaves the regulator burning 9840716.69 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "88.28",
+    "62.75",
+    "9790642.93"
+   ],
+   "expect": "Dropping 88.28 V to 62.75 V at 9790642.93 mA leaves the regulator burning 249955114 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "99.47",
+    "84.68",
+    "1404887.91"
+   ],
+   "expect": "Dropping 99.47 V to 84.68 V at 1404887.91 mA leaves the regulator burning 20778292.19 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "34.06",
+    "33.17",
+    "3181841.13"
+   ],
+   "expect": "Dropping 34.06 V to 33.17 V at 3181841.13 mA leaves the regulator burning 2831838.61 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "67.95",
+    "45.65",
+    "816705.25"
+   ],
+   "expect": "Dropping 67.95 V to 45.65 V at 816705.25 mA leaves the regulator burning 18212527.08 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "95.47",
+    "92.91",
+    "8258906.44"
+   ],
+   "expect": "Dropping 95.47 V to 92.91 V at 8258906.44 mA leaves the regulator burning 21142800.49 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "98.15",
+    "19.87",
+    "5542323.54"
+   ],
+   "expect": "Dropping 98.15 V to 19.87 V at 5542323.54 mA leaves the regulator burning 433853086.71 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "60.17",
+    "34.24",
+    "9128475.18"
+   ],
+   "expect": "Dropping 60.17 V to 34.24 V at 9128475.18 mA leaves the regulator burning 236701361.42 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "87.91",
+    "59.2",
+    "5290931.05"
+   ],
+   "expect": "Dropping 87.91 V to 59.2 V at 5290931.05 mA leaves the regulator burning 151902630.45 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "84.99",
+    "59.96",
+    "4707589.48"
+   ],
+   "expect": "Dropping 84.99 V to 59.96 V at 4707589.48 mA leaves the regulator burning 117830964.68 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "68.45",
+    "52.05",
+    "9082943.31"
+   ],
+   "expect": "Dropping 68.45 V to 52.05 V at 9082943.31 mA leaves the regulator burning 148960270.28 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "23.1",
+    "6.61",
+    "1027359.09"
+   ],
+   "expect": "Dropping 23.1 V to 6.61 V at 1027359.09 mA leaves the regulator burning 16941151.39 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "59.2",
+    "43.61",
+    "5362218.65"
+   ],
+   "expect": "Dropping 59.2 V to 43.61 V at 5362218.65 mA leaves the regulator burning 83596988.75 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "87.6",
+    "87.22",
+    "671281.93"
+   ],
+   "expect": "Dropping 87.6 V to 87.22 V at 671281.93 mA leaves the regulator burning 255087.13 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "49.73",
+    "9.81",
+    "6030918.1"
+   ],
+   "expect": "Dropping 49.73 V to 9.81 V at 6030918.1 mA leaves the regulator burning 240754250.55 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "53.96",
+    "11.75",
+    "3372262.03"
+   ],
+   "expect": "Dropping 53.96 V to 11.75 V at 3372262.03 mA leaves the regulator burning 142343180.29 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "36.18",
+    "2.69",
+    "486826.82"
+   ],
+   "expect": "Dropping 36.18 V to 2.69 V at 486826.82 mA leaves the regulator burning 16303830.2 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "63.25",
+    "38.34",
+    "3391184.08"
+   ],
+   "expect": "Dropping 63.25 V to 38.34 V at 3391184.08 mA leaves the regulator burning 84474395.43 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "88.62",
+    "33.83",
+    "1463310.72"
+   ],
+   "expect": "Dropping 88.62 V to 33.83 V at 1463310.72 mA leaves the regulator burning 80174794.35 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "86.26",
+    "78.73",
+    "1430258.45"
+   ],
+   "expect": "Dropping 86.26 V to 78.73 V at 1430258.45 mA leaves the regulator burning 10769846.13 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "98.11",
+    "96.96",
+    "353991.82"
+   ],
+   "expect": "Dropping 98.11 V to 96.96 V at 353991.82 mA leaves the regulator burning 407090.59 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "94.55",
+    "21.02",
+    "949509.87"
+   ],
+   "expect": "Dropping 94.55 V to 21.02 V at 949509.87 mA leaves the regulator burning 69817460.74 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "16.81",
+    "3.94",
+    "1511187.41"
+   ],
+   "expect": "Dropping 16.81 V to 3.94 V at 1511187.41 mA leaves the regulator burning 19448981.97 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "97.41",
+    "88.98",
+    "529037.46"
+   ],
+   "expect": "Dropping 97.41 V to 88.98 V at 529037.46 mA leaves the regulator burning 4459785.79 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "99.02",
+    "98.78",
+    "1788839.46"
+   ],
+   "expect": "Dropping 99.02 V to 98.78 V at 1788839.46 mA leaves the regulator burning 429321.47 mW."
+  },
+  {
+   "fn": "dissip",
+   "args": [
+    "99.84",
+    "99.1",
+    "8000516.38"
+   ],
+   "expect": "Dropping 99.84 V to 99.1 V at 8000516.38 mA leaves the regulator burning 5920382.12 mW."
+  }
+ ],
+ "errors": [
+  [
+   "divider",
+   [
+    "0",
+    "1680"
+   ]
+  ],
+  [
+   "divider",
+   [
+    "240",
+    "1000000.01"
+   ]
+  ],
+  [
+   "divider",
+   [
+    "24.005",
+    "1680"
+   ]
+  ],
+  [
+   "resistor",
+   [
+    "1.25",
+    "240"
+   ]
+  ],
+  [
+   "resistor",
+   [
+    "1",
+    "240"
+   ]
+  ],
+  [
+   "resistor",
+   [
+    "10",
+    "0"
+   ]
+  ],
+  [
+   "resistor",
+   [
+    "0",
+    "240"
+   ]
+  ],
+  [
+   "resistor",
+   [
+    "100.01",
+    "240"
+   ]
+  ],
+  [
+   "dissip",
+   [
+    "10",
+    "10",
+    "500"
+   ]
+  ],
+  [
+   "dissip",
+   [
+    "9",
+    "10",
+    "500"
+   ]
+  ],
+  [
+   "dissip",
+   [
+    "15",
+    "10",
+    "0"
+   ]
+  ],
+  [
+   "dissip",
+   [
+    "15",
+    "10",
+    "10000000.01"
+   ]
+  ],
+  [
+   "dissip",
+   [
+    "0",
+    "10",
+    "500"
+   ]
+  ]
+ ]
+}
