@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Regulator Math - adjustable linear regulator arithmetic</title>
+<style>
+  :root { --accent:#4a4a7d; --ink:#1e1e2e; --paper:#f5f5f8; --soft:#e4e4ee; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2.5rem 1.2rem; }
+  h1 { font-size:2.2rem; color:var(--accent); }
+  p.lede { font-size:1.12rem; margin:.9rem 0 1.6rem; }
+  .boundary { margin-bottom:1.6rem; }
+  section { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1.1rem 1.2rem; margin-bottom:1.2rem; }
+  h2 { font-size:1.18rem; margin-bottom:.5rem; }
+  section p { font-size:.98rem; }
+  a.btn { display:inline-block; margin-top:1.4rem; background:var(--accent); color:#fff; text-decoration:none; padding:.8rem 1.6rem; border-radius:999px; font-size:1.05rem; }
+  footer { margin-top:2.2rem; font-size:.85rem; color:#62627d; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Regulator Math</h1>
+  <p class="lede">A 240 Ω and 1680 Ω pair around the 1.25 V reference sets the output to 10 V.</p>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    Regulator Math works out output voltages, divider resistors and dissipations for an adjustable three-terminal regulator from the numbers you type, using the 1.25 V reference as a named chart constant. It treats the reference as exact and ignores the adjust-pin current, so it has not seen your regulator and does not know the tolerance, the dropout behavior, the thermal limits or the part variant, and it gives no verdict that a regulator circuit is adequate or safe. Every number here is your own entry.
+  </div>
+  <p class="lede" style="font-size:1rem">Starting examples: what a 240 Ω and 1680 Ω pair sets, the lower resistor for a 10 V output, and what a 15-to-10 V drop at 500 mA burns.</p>
+  <section>
+    <h2>The divider truth</h2>
+    <p>A 240 Ω upper and 1680 Ω lower resistor around the 1.25 V reference sets the output to 10 V.</p>
+  </section>
+  <section>
+    <h2>The resistor truth</h2>
+    <p>For a 10 V output with a 240 Ω upper resistor, the lower resistor comes to 1680 Ω.</p>
+  </section>
+  <section>
+    <h2>The dissipation truth</h2>
+    <p>Dropping 15 V to 10 V at 500 mA leaves the regulator burning 2500 mW.</p>
+  </section>
+  <a class="btn" href="app.html">Run your numbers</a>
+  <footer>Regulator Math is exact arithmetic over the numbers you enter, nothing more.</footer>
+</main>
+</body>
+</html>
